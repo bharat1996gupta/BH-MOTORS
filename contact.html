@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BH MOTORS</title>
+    <meta name="description" content="collection of top class super cars and sports cars">
+    <meta name="author" content="BHARAT GUPTA AND HARDEEP SINGH">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--=========CSS STYLE SHEET LINK=========-->
+    <link rel="stylesheet" type="text/css" href="css/cars-style.css">
+    <!--=========WEBSITE ICON=========-->
+    <link rel="icon" href="images/company_logo.JPG" type="image/jpeg">
+    <!--=========EXTERNAL SOCIAL MEDIA ICONS LINK=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--=========HEADER DIV=============-->
+    <div id="header_div">
+        <header>
+            <img src="images/company_logo.JPG" alt="company logo">
+        </header>
+    </div>
+    <!--=========NAVIGATION BAR=========-->
+    <div id="nav_div">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalogue.html">CARS</a></li>
+                <li><a href="table.html">COMPARE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--=========MAIN=========-->
+    <main class="contact">
+        <div id="form1">
+            <form action="index.html" method="POST" id="contact_form">
+                <input type="text" name="firstname" placeholder="Firstname" required maxlength="20"><br>
+                <br>
+                <input type="text" name="lastname" placeholder="Lastname"><br>
+                <br>
+                <input type="email" name="email" placeholder="Email"><br>
+                <br>
+                <br><select name="cars">
+                    <option value="0">PRODUCT NAME</option>
+                    <option value="FENYR">FENYR</option>
+                    <option value="LYKAN">LYKAN</option>
+                    <option value="DIVO">DIVO</option>
+                    <option value="CHIRON">CHIRON</option>
+                    <option value="AGERA">AGERA</option>
+                    <option value="JESKO">JESKO</option>
+                </select><br>
+                <br>
+
+
+                product interested: <br>
+                <input class="rad" type="radio" name="gender" value="male"><label>new</label> <br>
+                <input class="rad" type="radio" name="gender" value="female"><label>pre-owned</label> <br>
+
+
+                <br>
+                <textarea name="query" rows="10" cols="30">enter your query</textarea><br>
+                <br>
+                <div id="options">
+                    <input type="checkbox" name="option1" value="subscribe" required> I agree to recieve notification
+                    about
+                    products<br>
+                    <input type="checkbox" name="option2" value="offers"> I want to get informed about exciting
+                    offers<br>
+                </div>
+                <br><input type="submit" name="shot">
+
+            </form>
+        </div>
+        <div id="contactmap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.232056829238!2d-73.55346228447745!3d45.52553557910171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ba4da67d76d%3A0x1db0033612c25bfe!2s2100+Boulevard+de+Maisonneuve+East%2C+Montr%C3%A9al%2C+QC+H2K+4S1!5e0!3m2!1sen!2sca!4v1566257473004!5m2!1sen!2sca"
+                width="600" height="610" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!--============FOOTER DIV===========-->
+    <div id="footer_div">
+        <footer>
+            <!--============ADDRESS===========-->
+            <address> &reg;Address:<br>
+                2100 Boulevard de Maisonneuve East,<br>
+                Montréal, QC H2K 4S1<br><br>
+                Contact : <a href="tel:514-844-4890">(514)-844-4890</a><br><br>
+                E-mail : <a href="mailto:contact@bhmotors.com">contact@bhmotors.com</a>
+            </address>
+            <!--============WEBSITE LINKS===========-->
+            <h2 id="navigate">NAVIGATE</h2>
+            <ul id="page_link">
+                <li class="page_link"><a href="index.html">HOME</a></li>
+                <li class="page_link"><a href="catalogue.html">CARS</a></li>
+                <li class="page_link"><a href="table.html">COMPARE</a></li>
+                <li class="page_link"><a href="gallery.html">GALLERY</a></li>
+                <li class="page_link"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <!--============SOCIAL MEDIA LINKS===========-->
+            <h2 id="follow">FOLLOW US</h2>
+            <ul id="social_media">
+                <li class="social_media"><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                </li>
+                <li class="social_media"><a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+                </li>
+                <li class="social_media"><a href="https://www.instagram.com" target="_blank"
+                        class="fa fa-instagram"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

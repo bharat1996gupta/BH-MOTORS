@@ -1,0 +1,444 @@
+/******************
+/*********WHOLE PAGE********
+******************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/******************
+    *********HEADER********
+    ******************/
+
+#header_div header {
+    background-color: black;
+}
+
+/******************
+    /**********NAVIGATION BAR*******
+    ******************/
+
+/*=======NAVIGATION BAR CONTAINER STYLE========*/
+
+#nav_div {
+    padding-left: 20vw;
+}
+
+/*=======NAVIGATION BAR LIST ITEM STYLE========*/
+
+#nav_div nav ul li {
+    display: inline-block;
+}
+
+/*=======NAVIGATION BAR LIST ITEM LINK STYLE========*/
+
+#nav_div nav ul li a {
+    font-size: 2vw;
+    text-align: center;
+    display: block;
+    width: 13vw;
+    text-decoration: none;
+    color: black;
+}
+
+#nav_div nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/******************
+    /**********MAIN FOR INDEX.HTML*******
+    ******************/
+
+@font-face {
+    font-family: introduction;
+    src: url("poppins-light-italic.ttf")
+}
+
+/*******INTRODUCTION SECTION*******/
+
+#index .intro {
+    text-align: center;
+}
+
+/*=======INTRODUCTION GIF STYLE========*/
+
+#index .intro #intro_gif {
+    width: 80%;
+}
+
+/*=======INTRODUCTION TEXT STYLE========*/
+
+#index .intro #intro_text {
+    display: block;
+    margin: auto;
+    width: 50vw;
+    padding: 2vw;
+    font-size: 1.5vw;
+    font-family: introduction;
+}
+
+/*******MAIN 3 TILES SECTION*******/
+
+/*========CAR DIVS STYLE========*/
+
+#index .tiles .car {
+    width: 32vw;
+    display: inline-block;
+}
+
+/*========CAR IMAGE TILES STYLE========*/
+
+#index .tiles .car .categories {
+    width: 32vw;
+}
+
+/*========HEADING BELOW CAR IMAGE STYLE========*/
+
+#index .tiles .car h2 {
+    text-align: center;
+    font-family: introduction;
+}
+
+/******************
+    /**********MAIN FOR GALLERY.HTML*******
+    ******************/
+
+/*=======GALLERY HEADING DIV STYLE========*/
+
+#gallery div h1 {
+    text-align: center;
+}
+
+/*=======GALLERY DIV CONTAINING IMAGES STYLE========*/
+
+#gallery #showroom {
+    margin-left: 4vw;
+}
+
+/*=======GALLERY IMAGE STYLE========*/
+
+#gallery #showroom .showroom {
+    width: 30vw;
+}
+
+/*=======GALLERY IMAGE LINK STYLE========*/
+
+#gallery #showroom .showroom:hover {
+    opacity: 0.3;
+}
+
+/******************
+    /**********MAIN FOR CATALOG.HTML*******
+    ******************/
+
+/*=======PICTURE AND TEXT DESCRIPTION STYLE========*/
+
+#catalog .contain_description {
+    height: 72vh;
+    position: relative;
+}
+
+/*=======FENYR, LYKAN AND JESKO DESCRIPTION STYLE========*/
+
+#catalog .contain_description .pic_odd {
+    position: absolute;
+    left: 0;
+    width: 60vw;
+}
+
+#catalog .contain_description .text_odd {
+    position: absolute;
+    top: 3vh;
+    left: 65vw;
+    width: 30vw;
+    font-size: 1.5vw;
+}
+
+#catalog .contain_description .price_odd {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    font-size: 2.5vw;
+}
+
+/*=======DIVO, AGERA AND CHIRON DESCRIPTION STYLE========*/
+
+#catalog .contain_description .pic_even {
+    position: absolute;
+    right: 0;
+    width: 60vw;
+}
+
+#catalog .contain_description .text_even {
+    position: absolute;
+    top: 3vh;
+    right: 65vw;
+    width: 30vw;
+    font-size: 1.5vw;
+}
+
+#catalog .contain_description .price_even {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    font-size: 2.5vw;
+}
+
+/******************
+    /**********MAIN FOR PRODUCT.HTML*******
+    ******************/
+
+@font-face {
+    font-family: product;
+    src: url("michroma-regular.ttf");
+}
+
+#product #heading_fenyr {
+    font-family: product;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#product .product {
+    min-height: 10vh;
+    height: 120vh;
+    position: relative;
+}
+
+#product .product #fenyr {
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    width: 80vw;
+}
+
+/*=======FENYR PRODUCT DESCRIPTION STYLE========*/
+
+/*=======FENYR PRODUCT PICTURE STYLE========*/
+
+#product .product .product_pic_odd {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.1vw;
+    width: 56vw;
+}
+
+#product .product .product_pic_even {
+    position: absolute;
+    top: 0.5vh;
+    right: 0.1vw;
+    width: 56vw;
+}
+
+/*=======FENYR PRODUCT TEXT STYLE========*/
+
+#product .product .product_text_odd {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    width: 30vw;
+    font-size: 2vw;
+}
+
+#product .product .product_text_even {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    width: 30vw;
+    font-size: 2vw;
+}
+
+/*=======FENYR PRODUCT PRICE STYLE========*/
+
+#product .product .product_price_odd {
+    position: absolute;
+    top: 90vh;
+    right: 5vw;
+    font-size: 2.5vw;
+}
+
+#product .product .product_price_even {
+    position: absolute;
+    top: 90vh;
+    left: 5vw;
+    font-size: 2.5vw;
+}
+
+/*=======FENYR PRODUCT LANDSCAPE STYLE========*/
+
+#product .product .look {
+    position: absolute;
+    top: 9vh;
+    left: 0.25vw;
+    width: 97vw;
+}
+
+/******************
+    /**********MAIN FOR TABLE.HTML*******
+    ******************/
+
+@font-face {
+    font-family: table;
+    src: url("font.ttf");
+}
+
+th {
+    font-size: 2vw;
+    padding: 1vw;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-family: table;
+}
+
+td {
+    text-align: center;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/******************
+    /**********MAIN FOR CONTACT.HTML*******
+    ******************/
+
+#form1 {
+    width: 40%;
+    display: inline-block;
+    margin-left: 10%;
+    max-width: 300px;
+    padding: 2vw;
+    border: 1px solid black;
+    margin-right: 20%;
+    margin-bottom: 3%;
+}
+
+#contactmap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/******************
+    /*********FOOTER*********
+    ******************/
+
+/*=======FOOTER CONTAINER STYLE========*/
+
+#footer_div {
+    position: relative;
+    /*border: 10px solid red;*/
+    background-color: rgb(51, 50, 50);
+    height: 45vh;
+    color: white;
+}
+
+/*=======FOOTER STYLE========*/
+
+#footer_div footer {
+    display: block;
+    color: white;
+}
+
+/*****FOOTER ADDRESS SECTION*******/
+
+/*=======FOOTER ADDRESS STYLE========*/
+
+#footer_div footer address {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    font-size: 1.5vw;
+}
+
+/*=======FOOTER ADDRESS LINK STYLE========*/
+
+#footer_div footer address a {
+    text-decoration: none;
+    color: white;
+}
+
+/*****FOOTER NAVIGATION SECTION*******/
+
+/*=======FOOTER NAVIGATE HEADING STYLE========*/
+
+#footer_div footer #navigate {
+    font-size: 1.8vw;
+    position: absolute;
+    top: 5vh;
+    right: 48vw;
+}
+
+/*=======FOOTER WEBSITE NAVIGATION LIST STYLE========*/
+
+#footer_div footer #page_link {
+    font-size: 1.2vw;
+    font-weight: bolder;
+    list-style: none;
+    line-height: 5vh;
+    position: absolute;
+    top: 11vh;
+    right: 49vw;
+}
+
+/*=======FOOTER WEBSITE NAVIGATION LIST LINKS STYLE========*/
+
+#footer_div footer #page_link .page_link a {
+    text-decoration: none;
+    color: white;
+}
+
+/*****FOOTER SOCIAL MEDIA SECTION*******/
+
+/*=======FOOTER FOLLOW US HEADING STYLE========*/
+
+#footer_div footer #follow {
+    font-size: 1.8vw;
+    position: absolute;
+    top: 5vh;
+    right: 20vw;
+}
+
+/*=======FOOTER SOCIAL MEDIA LINK LIST STYLE========*/
+
+#footer_div footer #social_media {
+    list-style: none;
+    line-height: 2vh;
+    position: absolute;
+    top: 12vh;
+    right: 23vw;
+}
+
+/*****FOOTER SOCIAL MEDIA LOGO SECTION*******/
+
+.fa {
+    padding: 1.5vw;
+    margin-bottom: 1vh;
+    width: 1vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: rgb(118, 118, 124);
+    color: white;
+}
+
+.fa-twitter {
+    background: rgb(118, 118, 124);
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(118, 118, 124);
+    color: white;
+}
